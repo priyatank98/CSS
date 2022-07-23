@@ -1,0 +1,182 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+div{
+	height: 50px;
+	margin-right: 50px;
+	
+
+}
+img
+{
+	height: 450px;
+	width:300px;
+    margin-top: 150px;
+    border-radius: 20px;
+    border: 5px solid darkcyan;
+
+
+	border: 50%;
+	
+}
+ul{
+	display: flex;
+	width: 100%;
+	padding: 29px;
+}
+ul li
+{
+	list-style: none;
+	text-align: center;
+}
+ul li a{
+	text-decoration: none;
+	justify-content: center;
+	padding: 8px 16px;
+	align-content: center;
+	font-size: 35px;
+
+}
+a:hover
+{
+	background-color: black;
+	color: white;
+	border-radius: 15px;}
+
+
+
+header
+
+{
+ background-color: cyan;
+ height: 900px;
+ /*position: sticky;*/
+ /*top: 0px;*/
+}
+header:before
+{
+	content: "";
+	background-image: url(i.png);
+ 	 position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	z-index: -1;
+}
+section
+{
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	border-image: url(dow.jpg);
+}
+/*h1
+{
+	font-size: 50px;
+	text-align: center;
+	animation-name: acb;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+
+
+
+}
+
+@keyframes abc
+{
+	0%{background: hotpink;left: 0px; top: 0px;}
+	25%{background: lightpink;left: 100px; top: 0px;}
+	50%{background: red; left: 100px; top: 0px;}
+	75%{background:hotpink;left: 100px; top: 100px;}
+	100%{background: lightpink;left: 0px; top: 0px;}
+}*/
+
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	border: 2px solid black;
+	background-color: darkcyan;
+}
+
+	
+
+
+.left button{
+
+
+	font-size: 50px;
+	text-align: center;
+	animation-name: abc;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	padding-top: 45px;
+	padding-bottom: 45px;
+
+	margin-top: 45px ;
+	margin-left: 35px;
+	margin-right: 35px;
+	border: 2px solid transparent;
+
+
+}
+@keyframes abc
+{
+	0%{background: ;left: 0px; top: 0px;}
+	25%{background: ;left: 100px; top: 0px;}
+	50%{background: ; left: 100px; top: 0px;}
+	75%{background:;left: 100px; top: 100px;}
+	100%{background:;left: 0px; top: 0px;}
+
+}
+
+
+.button {
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid black;
+	background: transparent;
+	color: black;
+	cursor: pointer;
+	margin-left: 400px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	position: relative;
+	overflow: hidden;
+	background-color:darkcyan;
+	font-size: 16px;
+
+}
+
+span{
+	background: lightcyan;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: 0.5s;
+}
+button:hover span{
+	width: 100%;
+}
+button:hover{
+	border: none;
+}
+
+	
+
+
+	
+	
